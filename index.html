@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section class="todo">
+    <div class="todo__content">
+        <h1 class="todo__title">Todo-List</h1>
+        <div class="todo__header">
+            <h4 class="todo__status">Status : <span class="todo__status">All</span></h4>
+            <h2 class="todo__time"></h2>
+        </div>
+        <form class="todo__form">
+            <input class="todo__input" type="text" placeholder="Todo text">
+            <button class="todo__btn add" type="submit">ADD</button>
+        </form>
+
+        <h2 class="todo__empty">Ваш список задач пуст!</h2>
+        <ul class="todo__list"></ul>
+
+        <div class="todo__footer">
+            <p class="todo__count">Todo count : <span class="todo__count-num"></span></p>
+            <div class="todo__footer-btns">
+                <button class="status__btn status__all">All</button>
+                <button class="status__btn status_important">Important</button>
+                <button class="status__btn status__done">Done</button>
+            </div>
+        </div>
+        <div class="todo__delete">
+            <button class="delete__btn">All Delete</button>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
